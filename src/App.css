@@ -1,0 +1,105 @@
+
+h1{
+  color:#000000;
+}
+.App{
+  background-color:  #e0ecf1;
+}
+
+.App-header {
+  background-color: #e0ecf1;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 5vmin);
+  color: white;
+}
+.content-header{
+  background-color: black;
+  align-items: center;
+}
+.App-link {
+  color: #61dafb;
+}
+.increment{
+  background-image:url(../src/plus.png);
+  background-color: #e0ecf1;
+  border:#000000;
+  position: center;
+  width: 128px;
+  height: 128px;
+  font-size: 16px;
+  margin: 4px 4px;
+  border-radius: 70%;
+  
+}
+.refresh{
+  background-image:url(../src/refresh.png);
+  background-color: #e0ecf1;
+  border:#000000;
+  position: center;
+  width: 64px;
+  height: 64px;
+  font-size: 16px;
+  margin-top: 1cm;
+ 
+  border-radius: 70%;
+}
+
+.logo{
+  background-image:url(../src/logo.png);
+  background-color:   #e0ecf1;
+  width:109px;
+  height: 30px;
+  font-size: 16px;
+
+  margin-top: 10px;
+  margin-left: 10px;
+  border-color:  #e0ecf1;
+  border: none;
+}
+
+@media (max-width:300px )
+  
+{
+  .App-header {
+    background-color: #e0ecf1;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(20px + 25vmin);
+    color:  #e0ecf1;
+  }
+  .increment{
+    background-image:url(../src/plus.png);
+  background-color:  #e0ecf1;
+  border:#000000;
+  position: center;
+  width: 130px;
+  height: 130px;
+  font-size: 16px;
+  margin: 4px 4px;
+
+  
+  }
+  .refresh{
+    background-image:url(../src/refresh.png);
+    background-color:   #e0ecf1;
+    border:#000000;
+    position: center;
+    width: 256px;
+    height: 256px;
+    font-size: 16px;
+    margin-top: 1cm;
+   
+    border-radius: 70%;
+  }
+}
+.button{
+  margin-top: 3cm;
+}
+  
